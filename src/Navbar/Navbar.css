@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Nunito;
+    src: url(../Fonts/Nunito-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: PoetsenOne;
+    src: url(../Fonts/PoetsenOne-Regular.ttf);
+}
+
+.navbar-site {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-items {
+    width: 24rem;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar-items button {
+    border: none;
+    background-color: white;
+    font-family: Nunito;
+    font-size: 0.9rem;
+    color: #999;
+}
+
+.navbar-items button:hover {
+    color: black;
+    cursor: pointer;
+}

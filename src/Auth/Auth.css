@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Nunito;
+    src: url(../Fonts/Nunito-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: PoetsenOne;
+    src: url(../Fonts/PoetsenOne-Regular.ttf);
+}
+
+.auth-panel {
+    background-color: #E1F5FE;
+    width: 46%;
+    height: 54vh;
+
+    display: block;
+    margin: 2.3rem auto;
+    border-radius: 2.5rem;
+}
+
+.auth-panel h4 {
+    font-family: Nunito;
+    padding-top: 0.7rem;
+}

@@ -1,0 +1,33 @@
+@font-face {
+    font-family: Nunito;
+    src: url(../Fonts/Nunito-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: PoetsenOne;
+    src: url(../Fonts/PoetsenOne-Regular.ttf);
+}
+
+.footer-site {  
+    border-top: 2px solid #999;
+    color: #999;
+}
+
+.footer-site h3 {
+    display: flex;
+    justify-content: center;
+    
+    font-family: PoetsenOne;
+    color: #999;
+    word-spacing: 1rem;
+    letter-spacing: 0.3rem;
+}
+
+/* .footer-site ul {
+    justify-content: center;
+    list-style-type: none;
+    font-family: Nunito;
+    display: flex;
+    gap: 20rem;
+    font-size: 0.9rem;
+} */

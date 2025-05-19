@@ -1,0 +1,86 @@
+@font-face {
+    font-family: Nunito;
+    src: url(../Fonts/Nunito-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: PoetsenOne;
+    src: url(../Fonts/PoetsenOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto-semibold;
+    src: url(../Fonts/Roboto-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Roboto-mediume;
+    src: url(../Fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: Roboto-regular;
+    src: url(../Fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto-thin;
+    src: url(../Fonts/Roboto-Thin.ttf);
+}
+
+.header-site {
+    margin-top: 1rem;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title h2 {
+    margin: 0;
+    color: #000 ;
+    letter-spacing: 1px;
+    font-family: Roboto-regular;
+    display: flex;
+    align-items: center;
+}
+
+.title h2 img {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.title h2 img:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+}
+
+.title h2 span {
+    margin-left: 0.5rem;
+    /* font-size: 1.2rem;   */
+}
+
+.btn-signUp {
+    width: 6rem;
+    height: 2.4rem;
+    margin: 0;
+    border: none;
+    border-radius: 2rem;
+    color: #000 ;
+    background-color: #2196F3;
+    font-size: 1rem;
+    font-family: Roboto-regular;
+    letter-spacing: 1px;
+}
+
+.btn-signUp:hover {
+    background: #1E88E5;
+}
+
+.sginUp-div {
+    width: 183.61px;
+    display: flex;
+    justify-content: flex-end;
+}

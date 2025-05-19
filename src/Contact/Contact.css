@@ -1,0 +1,104 @@
+@font-face {
+    font-family: Roboto-semibold;
+    src: url(../Fonts/Roboto-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Roboto-mediume;
+    src: url(../Fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: Roboto-regular;
+    src: url(../Fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto-thin;
+    src: url(../Fonts/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: Roboto-light;
+    src: url(../Fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: Roboto-bold;
+    src: url(../Fonts/Roboto-Bold.ttf);
+}
+
+.contact-me {
+    background-color: #03A9F4;
+    width: 58rem;
+    height: 32rem;
+    border-radius: 2.4rem;
+    margin: 3.2rem auto;
+    padding: 0.8rem 2.4rem;
+    display: flex;
+}
+
+.contact-me h1 {
+    width: 10.9rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto-light;
+    letter-spacing: 1px;
+}
+
+.contact {
+    border-right: #fff 2px solid;
+    padding-right: 8rem;
+}
+
+.contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact ul li {
+    margin-bottom: 1.6rem;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .contact ul li: */
+
+.contact ul li h4 {
+    margin: 0;
+    padding-bottom: 0.6rem;
+    font-family: Roboto-light;
+}
+
+.contact ul li a {
+    text-decoration: none;    
+    display: inline;
+}
+
+.contact ul li a:hover {
+    text-decoration: #0D47A1 1px solid;
+}
+
+/* .contact-icon:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+} */
+
+.contact ul li a span {
+    margin: 0 0 0 1rem;
+    font-size: 1.4rem;
+    letter-spacing: 0.8px;
+    font-family: Roboto-regular;
+    color: #E1F5FE;
+}
+
+.contact ul li a span:hover {
+    color: #0D47A1;
+}
+
+.location {
+    margin-left: 2.4rem;
+    width: 56%;
+}
