@@ -1,0 +1,77 @@
+@font-face {
+    font-family: Vazir-bold;
+    src: url(../Fonts/Vazirmatn-Bold.ttf);
+}
+
+@font-face {
+    font-family: Vazir-light;
+    src: url(../Fonts/Vazirmatn-Light.ttf);
+}
+
+@font-face {
+    font-family: Vazir-medium;
+    src: url(../Fonts/Vazirmatn-Medium.ttf);
+}
+
+@font-face {
+    font-family: Vazir-regular;
+    src: url(../Fonts/Vazirmatn-Regular.ttf);
+}
+
+@font-face {
+    font-family: Vazir-SemiBold;
+    src: url(../Fonts/Vazirmatn-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Vazir-thin;
+    src: url(../Fonts/Vazirmatn-Thin.ttf);
+}
+
+.about-data {
+    background-color: #2196F3;
+    width: 58rem;
+    height: 32rem;
+    border-radius: 2.4rem;
+    margin: 2.4rem auto;
+    padding: 0.8rem 2.4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.me-emoji {
+    width: 7.2rem;
+    height: 7.2rem;
+    display: block;
+    margin: 1rem auto 0 auto;
+}
+
+.me-emoji:hover {
+    animation: shake 0.3s ease-in-out;
+}
+
+@keyframes shake {
+    0% { transform: translate(0px, 0px); }
+    25% { transform: translate(2px, -2px); }
+    50% { transform: translate(-2px, 2px); }
+    75% { transform: translate(2px, 2px); }
+    100% { transform: translate(0px, 0px); }
+  }
+
+.hi {
+    font-family: vazir-bold;
+    font-size: 1.4rem;
+}
+
+.about-data p {
+    text-align: right;
+    font-family: vazir-medium;
+    font-size: 1rem;
+    line-height: 2.3rem;
+    margin-top: 0;
+}
+
+.text {
+    font-family: vazir-semibold;
+    font-size: 1.1rem;
+}

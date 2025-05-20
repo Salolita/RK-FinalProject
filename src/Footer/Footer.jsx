@@ -1,23 +1,14 @@
 import './Footer.css'
+import InfoPanel from '../HistoryPage/HistoryPage'
 
-const Footer = () => (
+const Footer = ({ pageName }) => (
     <div className="footer-site">
         <h3>
             Devloped by Salolita
         </h3>
+        <p>Page : {pageName}</p>
+        <InfoPanel />
     </div>
 )
 
 export default Footer
-
-{/* <ul>
-    <li>
-        Call : 09372873791
-    </li>
-    <li>
-        My site : Saleh-azizi.ir
-    </li>
-    <li>
-        Instagram : Saleh_2007K
-    </li>
-</ul> */}

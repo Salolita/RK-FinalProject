@@ -1,8 +1,8 @@
+import AboutData from '../Information/AboutData'
+
 const About = () => (
     <div className="about-me">
-        <h3>
-            About me
-        </h3>
+        <AboutData />
     </div>
 )
 
