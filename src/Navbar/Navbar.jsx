@@ -7,7 +7,7 @@ const Navbar = () => (
             <li>
                 <Link to="/">
                     <button>
-                        Home page
+                        Home
                     </button>
                 </Link>
             </li>

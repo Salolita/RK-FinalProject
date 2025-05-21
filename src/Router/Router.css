@@ -1,0 +1,33 @@
+@font-face {
+    font-family: Roboto-light;
+    src: url(../Fonts/Roboto-Light.ttf);
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+}
+
+.list li {
+    padding: 0;
+}
+
+.list li a:hover {
+    color: #3F51B5;
+}
+
+.list li a {
+    font-family: Roboto-light;
+    padding-right: 1rem;
+    font-size: 1.2rem;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list-space {
+    padding: 0;
+}
